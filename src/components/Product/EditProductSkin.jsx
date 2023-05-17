@@ -75,6 +75,7 @@ const EditProductSkin = () => {
             type="text"
             name="description"
             placeholder="Description"
+            onChange={handleInp}
           />
           <input
             value={product.price || ""}
